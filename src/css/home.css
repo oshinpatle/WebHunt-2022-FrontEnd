@@ -1,0 +1,26 @@
+#home{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+  
+#home span{
+      margin-right: 4%;
+      color: #E5e4e2;
+}
+  
+#home input[type=submit]{
+      height:3rem;
+      width: 7rem;
+      font-size: 1.2rem;
+      color: white;
+      border-style: none;
+      border-radius: 10px;
+      overflow: hidden;
+      border-color: black;
+      background: linear-gradient(18deg, rgba(131,58,180,1) 0%, rgba(181,60,115,1) 71%, rgba(221,62,62,1) 83%, rgba(252,176,69,1) 100%);
+}

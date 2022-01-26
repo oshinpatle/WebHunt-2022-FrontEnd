@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    background-image: url(../images/red.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.2rem;
+}
+
+.wh-body{
+    width: 42vw;
+    height: 70vh;
+    margin-left: 29vw;
+    padding: 0px;
+    position: absolute;
+    top:15%;
+    display:flex;
+    flex-direction: column;
+    background-color: #131212;
+    align-items: center;
+    color: white;
+    border-radius: 50px;
+}
+
+.wh-body h2{
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.wh-horizontal{
+   font-size: 2rem;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-bottom: 5vh;
+}
+
+.wh-body a input{
+    height:3rem;
+    width: 7rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    overflow: hidden;
+    border-color: black;
+    background: linear-gradient(18deg, rgba(131,58,180,1) 0%, rgba(181,60,115,1) 71%, rgba(221,62,62,1) 83%, rgba(252,176,69,1) 100%);
+}
+
+.wh-form-elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wh-form-elements input{
+    width: 15vw;
+    height: 4vh;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-bottom: 3.5vh;
+}
+
+.wh-body button{
+    width: 16vw;
+    height: 5vh;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-bottom: 2vh;
+}
+.wh-form-elements button{
+    background: rgb(131,58,180);
+    background: linear-gradient(18deg, rgba(131,58,180,1) 0%, rgba(181,60,115,1) 71%, rgba(221,62,62,1) 83%, rgba(252,176,69,1) 100%);
+    font-size: 1.2rem;
+    color: lavender;
+}
+.wh-line{
+    margin-top: 3vh;
+    width: 16vw;
+    margin-bottom: 3vh;
+}
+
+.wh-sign-in{
+    text-align: start;
+    font-size: 1.2rem;
+    color: black;
+    border-radius: 10px;
+    background-color:#28639e;
+    border-color: #A0A0A0;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wh-sign-in span{
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+}
+a{
+    color: blue;
+}
+.wh-sign-in span img{
+    margin-right: 1vw;
+}
+
+.wh-sign-in:hover{
+   background-color: cornflowerblue;
+}

@@ -1,0 +1,165 @@
+body{
+  background-image:linear-gradient(to right top, #121212, #121213, #121214,#111215, #101216, #14161a, #181a1d, #1c1e21, #262729,  #2f3032, #39393a, #434343);
+  margin: 0px;
+  min-height: 100vh;
+  color: white; 
+  text-align: center;
+}
+
+/*header section*/
+header{
+  margin-top: 5%;
+}
+h2{
+font-size: 4rem;
+text-align: center;
+animation-name: swing;
+animation-duration: 2s;
+}
+
+#sign-up{
+font-size: 1.5rem;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+#sign-up span{
+  margin-right: 4%;
+  color: #E5e4e2;
+}
+
+#sign-up input[type=submit]{
+  height:3rem;
+  width: 7rem;
+  font-size: 1.2rem;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  overflow: hidden;
+  border-color: black;
+  background: linear-gradient(18deg, rgba(131,58,180,1) 0%, rgba(181,60,115,1) 71%, rgba(221,62,62,1) 83%, rgba(252,176,69,1) 100%);
+}
+
+/*main section*/
+main{
+  margin-bottom: 30px;
+}
+
+main{
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+table{
+  margin-top: 5vh;
+}
+table tr{
+ height: 10vh;
+}
+table td{
+  width: 15vw;
+}
+table input{
+ height: 6vh;
+ width: 20vw;
+ padding-left: 15px;
+ border-radius: 10px;
+ font-size: 1.2rem;
+ background-color: #202020;
+ color: #A0A0A0;
+ border-color: #A0A0A0;
+}
+
+/*log-in button*/
+#log-in{
+  height: 6vh;
+  width: 21vw;
+  text-align: center;
+  padding-left: 15px;
+  border-radius: 10px;
+  border-color: black;
+  overflow: auto;
+  font-size: 1.2rem;
+  color: lavender;
+  background: rgb(131,58,180);
+  background: linear-gradient(18deg, rgba(131,58,180,1) 0%, rgba(181,60,115,1) 71%, rgba(221,62,62,1) 83%, rgba(252,176,69,1) 100%);
+}
+/*forgot password*/
+main a{
+  font-size: 1.2rem;
+  color: ivory;
+}
+main a:hover{
+  color:blue;
+}
+
+#horizontal-line{
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  max-width: 30vw;
+  align-content: center;
+}
+
+/*sign in options*/
+.sign-in-options img{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.sign-in-options{
+  height: 6vh;
+  width: 21vw;
+  text-align: start;
+  font-size: 1rem;
+  color: #A0A0A0;
+  border-radius: 10px;
+  background-color: #202020;
+  border-color: #A0A0A0;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sign-in-options span{
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+}
+.sign-in-options span:hover{
+  animation-duration: 4s;
+  animation-name: slide;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slide{
+  from{
+      margin-left: 0%;
+  }
+  to{
+      margin-left: 20%;
+  }
+}
+
+
+/*media query*/
+@media all and (max-width:1050px){
+   table td{
+       width: 40vw;
+   }
+   table input{
+       width: 40vw;
+   }
+   #log-in,.sign-in-options {
+       height: 7vh;
+       width: 44vw;
+   }
+   #log-in{
+      text-align: center;
+   }
+}
